@@ -132,6 +132,9 @@ ul {
 .content strong{
     color: #269ce0;
 }
+.indent {
+    margin: 10px;
+}
 /* Media Queries */
 @media (max-width: 768px) {
   .hero {
