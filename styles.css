@@ -110,6 +110,28 @@ ul {
 .btn a{
     color: #f9f9f9;
 }
+/* Page Content */
+.page-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    
+}
+.wrapper{
+    width: 80%;
+}
+.content{
+    width: 80%;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.content strong{
+    color: #269ce0;
+}
 /* Media Queries */
 @media (max-width: 768px) {
   .hero {
