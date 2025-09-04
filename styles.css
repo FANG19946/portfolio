@@ -7,6 +7,7 @@ body {
   background-color: #f9f9f9;
   font-family: monospace;
   width: 100vw;
+  overflow-x: hidden;
 }
 /* Navbar */
 a{
@@ -106,15 +107,20 @@ ul {
     padding: 10px;
     margin-top: 20px;
     font-family: monospace;
-}
-.btn a{
     color: #f9f9f9;
+
+}
+.btn:hover{
+    cursor: pointer;
 }
 /* Page Content */
 .page-section{
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
+    flex: 1;
+    align-content: space-between;
+    flex-wrap: wrap;
     
 }
 .wrapper{
@@ -135,6 +141,29 @@ ul {
 .indent {
     margin: 10px;
 }
+/* Footer */
+
+footer{
+    /* margin-top: auto;     */
+    width: 100%;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+footer i{
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 10px;
+}
+footer i:hover{
+    color: #269ce0;
+}
+
+
+
 /* Media Queries */
 @media (max-width: 768px) {
   .hero {
